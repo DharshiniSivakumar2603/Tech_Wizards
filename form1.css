@@ -1,0 +1,24 @@
+.rules{
+	 background-color: lightgrey;
+  width: 300px;
+  border: 5px #4682B4;
+  padding: 10px;
+  margin: 20px;
+background-image: linear-gradient(to right, #191970,#00CED1);
+color: white;
+
+}
+.form{
+	background-color: lightgrey;
+  width: 300px;
+  border: 5px #4682B4;
+  padding: 7px;
+  margin: 20px;
+ background-image: linear-gradient(to right, #191970,#00CED1);
+ color: white;
+
+}
+h2{
+	color: black;
+	text-align: center;
+}

@@ -1,0 +1,38 @@
+.rules2{
+	 background-color: lightgrey;
+  width: 400px;
+  border: 5px #4682B4;
+  padding: 3px;
+  margin: 20px;
+  background-image: linear-gradient(to right, rgb(148,0,211), rgb(147,112,219));
+  font-family: "Lucida Console", "Courier New", monospace;
+  color:white;
+border-radius: 25px;
+box-shadow: 10px 10px 5px rgb(162,162,208);
+}
+.form2{
+	background-color: lightgrey;
+  width: 300px;
+  border: 5px #4682B4;
+  padding: 7px;
+  margin: 20px;
+  background-image: linear-gradient(to right, rgb(148,0,211), rgb(147,112,219));
+  font-family: Arial, Helvetica, sans-serif;
+  border-radius: 25px;
+  box-shadow: 10px 10px 5px rgb(162,162,208);
+  color:pink;
+}
+h1{
+	color: black;
+  font-family: sans-serif;
+   text-align: center;
+     text-shadow: 2px 2px white;
+}
+body{
+  background-image: url(https://i.ibb.co/89Lm0KD/Whats-App-Image-2021-10-30-at-06-39-39.jpg);
+}
+.submit{
+  border-radius: 25px;
+ background-color:rgb(162,162,208);
+ font-weight: bold;
+}

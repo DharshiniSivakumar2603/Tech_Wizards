@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Sairam EC</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link href="hm1.css" rel="stylesheet" type="text/css" />
+<script type="text/javascript" src="hm1.js"></script>
+
+<script type="text/javascript">
+        function redirecto(eventUrl){
+            window.location.href=eventUrl;
+        }
+    </script>
+</head>
+
+<body background="https://img.freepik.com/free-photo/chalkboard-blackboard-dark-wallpaper-background_28629-1125.jpg?size=626&ext=jpg">    
+
+<div id="mySidebar" class="sidebar">
+  <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">×</a>
+  <a href="signin.html">LOGIN</a>
+  <a href="#home">HOME</a>
+  <a href="#Event">EVENTS</a>
+  <a href="#ourTeam">CONTACT</a>
+</div>
+
+<div id="main">
+  <div class="menubg">
+  <button class="openbtn" onclick="openNav()">☰ </button>  
+  <table width="50%" align="right">
+  <tr>
+  <td align="right"><a class="topmenulink" href="#home">Home</a></td>
+  <td align="center"><a class="topmenulink" href="#Event">Events</a></td>
+  <td align="left"><a class="topmenulink" href="#ourTeam">Our Team</a></td>
+  <td align="center"><img src="icon.jpg" height="30"></td>
+  </tr>
+  </table>
+</div>
+</div>
+
+<div id="home">
+<h1>SAIRAM CODE CLUB</h1>
+<p> Technology has revolutionized the world and holds the key to our future.<br>Coding Club of Sri Sairam Engineering, organize various technical activities<br> at regular intervals in association with Information technology and Computer <br>Science Departments.
+
+Coding Club is a platform where students with different <br>interests such as, coding, App development, Machine Learning, and Web Designing. <br>The club is responsible for conducting programming events for the students of Sri <br>Sairam Engineering College .
+
+The club arranges weekly workshops focusing on various <br>activities such as, basic programming, web designing languages, machine learning <br>algorithms, and mobile application development. Programming competitions will be <br>conducted to inculcate a coding culture in the institute.<br>
+</p>
+
+
+<div class="slideshow-container">
+
+<div class="mySlides fade">
+  <div class="numbertext">1 / 3</div>
+  <img src="im1.jpg" style="width:100%">
+</div>
+
+<div class="mySlides fade">
+  <div class="numbertext">2 / 3</div>
+  <img src="im2.jpg" style="width:100%">
+</div>
+
+<div class="mySlides fade">
+  <div class="numbertext">3 / 3</div>
+  <img src="im3.jpg" style="width:100%">
+</div>
+
+</div>
+<br>
+
+<div style="text-align:center">
+  <span class="dot"></span> 
+  <span class="dot"></span> 
+  <span class="dot"></span> 
+</div>
+
+<script>
+var slideIndex = 0;
+showSlides();
+
+function showSlides() {
+  var i;
+  var slides = document.getElementsByClassName("mySlides");
+  var dots = document.getElementsByClassName("dot");
+  for (i = 0; i < slides.length; i++) {
+    slides[i].style.display = "none";  
+  }
+  slideIndex++;
+  if (slideIndex > slides.length) {slideIndex = 1}    
+  for (i = 0; i < dots.length; i++) {
+    dots[i].className = dots[i].className.replace(" active", "");
+  }
+  slides[slideIndex-1].style.display = "block";  
+  dots[slideIndex-1].className += " active";
+  setTimeout(showSlides, 4000); 
+}
+</script>
+</div>
+
+<div id="Event">
+  <h1>EVENTS</h1>
+    <div id="div1">
+        <div><br><br>PAPER PRESENTATION</div>
+        <p> <br>Are you a person who is well versed in presentation and communication? Then this is the right platform for you!<br><br>
+        <button class="button1" type="CLICK HERE" value="CLICK HERE" onclick="redirecto('form1.html')">CLICK HERE</button>
+      </p>
+    </div>
+
+    <div id="div2">
+        <div><br><br>WEB REPLICATION</div>
+        <p>This is where you showcase the skills of web development side of yours! Are you good enough to replicate a given website? Participate to find out!<br><br>
+            <button class="button1" type="CLICK HERE" value="CLICK HERE" onclick="redirecto('form2.html')">CLICK HERE</button>
+        </p>
+    </div>
+
+    <div id="div3">
+        <div><br><br>PROGRAMMING CHALLENGE</div>
+        <p><br>A perfect place to exhibit your coding skills. Be swift enough to solve the challenges in the given amount of time!<br><br>
+            <button class="button1" type="CLICK HERE" value="CLICK HERE" onclick="redirecto('form3.html')">CLICK HERE</button>
+        </p>
+    </div>
+
+    <div id="div4"> 
+        <div><br><br>DEBUGGING</div>
+        <p>This platform is where you test your skills of finding and sorting out errors. It becomes even more interesting as you go for the final round!<br><br>
+            <button class="button1" type="CLICK HERE" value="CLICK HERE" onclick="redirecto('form4.html')">CLICK HERE</button>
+        </p>
+    </div>
+</div>
+
+<div class="container" id="ourTeam">
+  <h1>MEET OUR TEAM</h1>
+    <div class="row">
+        <div class="col-lg-4">
+            <div class="our-team-main">
+                <div class="team-front"> <img src="https://i.ytimg.com/vi/azXTpopSGtU/maxresdefault.jpg" />
+                    <h3>HARISH</h3>
+                    <p>EVENT COORDINATOR</p>
+                </div>
+                <div class="team-back"> <span> HARISH is a passionate web designer who is a full stack web developer. He has participated in several hackathons and won prizes.<br>CONTACT:93804717890 </span> </div>
+            </div>
+        </div>
+        <div class="col-lg-4">
+            <div class="our-team-main">
+                <div class="team-front"> <img src="https://i.pinimg.com/originals/b6/47/fa/b647faffd9a493fe0571429f2629d1c8.png" class="img-fluid" />
+                    <h3>MONICA</h3>
+                    <p>STUDENT COORDINATOR</p>
+                </div>
+                <div class="team-back"> <span>MONICA is an IEEE member who has organized several events in college. She is a great coder who has won many coding competitions.<br>CONTACT:6873540988 </span> </div>
+            </div>
+        </div>
+        <div class="col-lg-4">
+            <div class="our-team-main">
+                <div class="team-front"> <img src="https://th.bing.com/th/id/OIP.GOLGHU5xSO-LH7QpWtoqsAHaEo?pid=ImgDet&rs=1" class="img-fluid" />
+                    <h3>SAM</h3>
+                    <p>STUDENT COORDINATOR</p>
+                </div>
+                <div class="team-back"> <span>SAM is a full stack developer and hacker who has participated in Smart India Hackathon and has won third prize. <br>CONTACT:7734893100</span> </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+</body></html>

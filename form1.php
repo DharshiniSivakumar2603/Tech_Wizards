@@ -3,7 +3,6 @@
 <head>
 	<title>PAPER PRESENTATION</title>
 	<link href="form1.css" rel="stylesheet" type="text/css" />
-
 </head>
 <body background="form1.jpg">
 	<h2>PAPER PRESENTATION</h2>
@@ -61,3 +60,20 @@
 </div>
 </body>
 </html>
+<?php
+$n = $_POST["txtNAME"];
+$d = $_POST["txtDEPARTMENT"];
+$l = $_POST["txtTEAM LEAD NAME"];
+$c = $_POST["txtCOLLEGE"];
+$e = $_POST["txtemail"];
+$conn= new mysqli('localhost','root','','formone')or die("Could not connect to mysql".mysqli_error($con));
+$qry="insert into userone(name,dept,teamlead,college,email) values($n,$d,$l,$c,$e)";
+$res=mysql_query($qry) or die(mysql_error());
+$n=mysql_num_rows($res);
+if($n>0){
+    echo"REGISTER SUCCESSFULLY";
+}
+else{
+    echo"Try again.....!!!!";
+}
+?>
